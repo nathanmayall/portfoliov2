@@ -36,7 +36,7 @@
   },
   "particles": {
     "color": {
-      "value": ["#BD10E0", "#B8E986", "#50E3C2", "#FFD300", "#E86363"]
+      "value": ["#73EEDC", "#73C2BE", "#776885", "#5F1A37", "#04030F"]
     },
     "links": {
       "random": "true",
@@ -72,7 +72,7 @@
     },
     "size": {
       "random": true,
-      "value": 5
+      "value": 15
     }
   },
   "detectRetina": true
