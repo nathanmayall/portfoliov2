@@ -11,21 +11,21 @@ export default function Icons() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaLinkedin className="text-6xl" />
+        <FaLinkedin className="text-6xl duration-150 hover:text-indigo-900" />
       </a>
       <a
         href="mailto:nathanmayall@icloud.com?subject=I've seen your portfolio and..."
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FiMail className="text-6xl" />
+        <FiMail className="text-6xl duration-150 hover:text-indigo-900" />
       </a>
       <a
         href="https://github.com/nathanmayall"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaGithub className="text-6xl" />
+        <FaGithub className="text-6xl duration-150 hover:text-indigo-900" />
       </a>
     </div>
   );
