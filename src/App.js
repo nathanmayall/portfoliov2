@@ -7,13 +7,14 @@ import particleOptions from "./components/particleOptions.json";
 function App() {
   return (
     <Fragment>
-      <div className="absolute h-screen">
-        <Particles options={particleOptions} />
-      </div>
-      <div className="relative flex flex-col items-center justify-center h-screen text-center align-middle">
+      <Particles
+        options={particleOptions}
+        className="absolute z-0 w-screen h-screen"
+      />
+      <div className="relative flex h-screen">
         <div
-          className="px-24 py-4 text-gray-700 bg-white bg-opacity-25 rounded-lg shadow-lg"
-          style={{ backdropFilter: "blur(5px)" }}
+          className="px-20 py-4 m-auto text-center text-gray-700 bg-white rounded-lg shadow-lg bg-opacity-10"
+          style={{ backdropFilter: "blur(2px)" }}
         >
           <h1 className="text-6xl font-thin tracking-wider text-shadow-lg">
             Nathan Mayall

@@ -9,7 +9,7 @@
     "detectsOn": "canvas",
     "events": {
       "onClick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "onHover": {
@@ -36,9 +36,10 @@
   },
   "particles": {
     "color": {
-      "value": "#000000"
+      "value": ["#BD10E0", "#B8E986", "#50E3C2", "#FFD300", "#E86363"]
     },
     "links": {
+      "random": "true",
       "color": "#ffffff",
       "distance": 150,
       "enable": false,
