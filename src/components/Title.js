@@ -9,7 +9,7 @@ export default function Title() {
     <Fragment>
       <Particles
         options={particleOptions}
-        className="absolute w-auto h-screen"
+        className="absolute h-screen min-w-full"
       />
       <div className="relative flex h-screen">
         <div
