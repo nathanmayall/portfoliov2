@@ -22,7 +22,7 @@ module.exports = {
         kubernetes: "#326ce5",
       },
       backgroundImage: {
-        "code-image": "url('./img/portfolio-bg.jpg')",
+        "bio-image": "url('./img/paintsplash.jpg')",
       },
     },
   },
